@@ -42,6 +42,72 @@
   .arena-tech {animation:none}
 }
 </style>
+
+<style id="mobile-polish">
+/* Responsive enhancements: desktop layout remains unchanged. */
+html {scroll-padding-top:110px}
+body {overflow-x:hidden}
+@media (max-width:800px) {
+  header {display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:13px 0}
+  header .brand {font-size:1.45rem}
+  header nav {display:flex;width:100%;gap:8px;align-items:center;overflow-x:auto;padding:0 0 7px;scrollbar-width:thin;white-space:nowrap}
+  header nav a:not(.pill) {display:inline-flex}
+  header nav a {flex:0 0 auto;font-size:.82rem;padding:7px 9px}
+  header nav .pill {padding:7px 12px}
+  .wrap {width:min(100% - 32px,650px)}
+  .hero {display:flex;flex-direction:column;gap:14px;min-height:0;padding:38px 0 28px}
+  .hero-copy {width:100%;align-self:stretch}
+  .hero h1 {font-size:clamp(2.65rem,10vw,4.5rem);overflow-wrap:anywhere}
+  .hero p {font-size:.96rem;line-height:1.7}
+  .hero .eyebrow {font-size:.66rem;line-height:1.5}
+  .hero .actions {gap:10px}
+  .hero .btn {justify-content:center}
+  .portrait-scene {width:100%;min-height:335px;margin-top:10px}
+  .portrait {width:200px;height:255px}
+  .orbit {width:285px;height:285px}
+  .floating {padding:9px 11px;font-size:17px}
+  .floating b {font-size:11px}
+  .f1 {top:18px;left:0}
+  .f2 {top:110px;right:0}
+  .f3 {bottom:15px;left:0}
+  .hero-contact {overflow-wrap:anywhere;font-size:.8rem}
+  .stat-row {gap:14px;padding:19px 0;margin-top:15px}
+  .stat-row b {font-size:1.35rem}
+  .stat-row small {font-size:.76rem}
+  section {padding:54px 0}
+  h2 {font-size:clamp(2rem,8vw,3rem)}
+  .card {padding:22px;border-radius:18px}
+  .grid,.skills,.certs {grid-template-columns:minmax(0,1fr)}
+  .feature {grid-template-columns:minmax(0,1fr);gap:22px}
+  .feature h3 {overflow-wrap:anywhere}
+  .arena-visual {min-height:315px;width:100%}
+  .timeline {grid-template-columns:1fr}
+  .contact .actions {justify-content:center;gap:10px}
+  footer {gap:8px;text-align:center;align-items:center}
+}
+@media (max-width:420px) {
+  .wrap {width:calc(100% - 28px)}
+  .hero h1 {font-size:clamp(2.4rem,10.5vw,3.1rem)}
+  .portrait-scene {min-height:305px}
+  .portrait {width:175px;height:230px}
+  .orbit {width:255px;height:255px}
+  .floating {padding:7px 8px}
+  .f1 {left:-3px}
+  .f2 {right:-3px}
+  .f3 {left:0}
+  .arena-visual {min-height:300px}
+  .arena-visual .arena-drop {font-size:clamp(1.28rem,6vw,1.65rem)}
+  .arena-tech {font-size:9px;padding:6px 8px}
+  .tech-azure {top:10%;left:5%}
+  .tech-k8s {top:10%;right:5%}
+  .tech-ansible {top:32%;left:5%}
+  .tech-grafana {top:32%;right:5%}
+  .tech-docker {bottom:10%;left:6%}
+  .tech-openstack {bottom:10%;right:5%}
+  .stat-row {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .contact .btn {width:100%;justify-content:center}
+}
+</style>
 </head><body><div class="wrap"><header><a class="brand" href="#top">Ghofrane<span>.</span></a><nav><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#certifications">Certifications</a><a class="pill" href="#contact">Let's connect ↗</a></nav></header><main><div class="hero" id="top"><div class="hero-copy"><div class="eyebrow">● Open to a 6-month internship · Starting January 2027</div><h1>Hi, I’m <span class="gradient">Ghofrane</span><br>Benhassen</h1><p>Software Engineering Student specializing in <strong>Cloud Computing & Architecture</strong> with a strong foundation in Business Intelligence and hands-on experience in cloud engineering, full-stack development, and data analytics. I enjoy turning complex challenges into innovative, scalable, and user-centered solutions, combining technical expertise with creativity and a passion for meaningful impact.</p><div class="actions"><a class="btn primary" href="#projects">View My Work ↗</a><a class="btn" href="mailto:GhofraneBenhassen64@gmail.com">Get in Touch ↗</a></div><p style="font-size:.86rem;margin-top:27px;color:#91e8d1">● Available from January 2027 · Open to international relocation</p></div><div class="portrait-scene"><div class="orbit"></div><img src="portrait.jpg" alt="Ghofrane Benhassen" class="portrait"><div class="floating f1">☁ <b>Cloud & DevOps</b></div><div class="floating f2">⌘ <b>Full-Stack</b></div><div class="floating f3">▥ <b>Data & BI</b></div></div></div><div class="hero-contact">⌖ Tunis, Tunisia &nbsp;&nbsp; <a href="mailto:GhofraneBenhassen64@gmail.com">✉ GhofraneBenhassen64@gmail.com</a></div><div class="stat-row"><div><b>4</b><small>Internship experiences</small></div><div><b>5+</b><small>Technical projects</small></div><div><b>3</b><small>Certificates</small></div><div><b>♡</b><small>Volunteering & SDGs</small></div></div><section id="about" class="reveal"><div class="eyebrow">01 / Behind the screen</div><h2>Curiosity is my<br><span class="gradient">favorite technology.</span></h2><p class="intro">My journey started with Business Intelligence: transforming complex information into useful insights. Today, I study Cloud Computing & Architecture at ESPRIT and work across software engineering, full-stack development, DevOps, and cloud infrastructure. I care about how things work — and how they feel to the people using them. Creative, responsible, and always learning, I want to build technology that matters.</p><div class="grid" style="margin-top:30px"><div class="card"><div class="num">2024 — PRESENT</div><h3>Engineering · ESPRIT</h3><p>Cloud Computing & Architecture, Tunis.</p></div><div class="card"><div class="num">2021 — 2024</div><h3>National Diploma · ISG Sousse</h3><p>Business Intelligence & Computing · Honors.</p></div></div></section><section id="projects" class="reveal"><div class="eyebrow">02 / Selected work</div><h2>Featured <span class="gradient">Projects</span></h2><div class="grid"><article class="card feature"><div><div class="num">FEATURED · CLOUD + FULL STACK + AI</div><h3 style="font-size:2.1rem">ARENACODE / CodeArena</h3><p>A competitive programming experience built on a private OpenStack cloud: Angular and Spring Boot, Kubernetes orchestration, Ansible automation, CI/CD, observability, and AI-powered code analysis.</p><span class="tag">OpenStack</span><span class="tag">Kubernetes</span><span class="tag">Angular</span><span class="tag">Spring Boot</span><span class="tag">Prometheus</span><span class="tag">AWS AI</span><p><a href="https://ghofrane-cloud-portfolio.vercel.app/#codearena" target="_blank" rel="noopener" style="color:var(--mint)">Explore technical details ↗</a></p></div><div class="visual arena-visual" aria-label="ARENACODE cloud and DevOps technologies">
   <span class="arena-tech tech-azure">☁ Azure</span>
   <span class="arena-tech tech-k8s">☸ Kubernetes</span>
